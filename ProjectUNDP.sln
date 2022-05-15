@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectUNDP", "ProjectUNDP\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactUNDPModels", "ContactUNDPModels\ContactUNDPModels.csproj", "{C621DA3B-AD78-4385-92A8-6A9BB853F1C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyContactManagerData", "MyContactManagerData\MyContactManagerData.csproj", "{FBF8EC2F-FD05-4CA0-A94C-26550A652CF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C621DA3B-AD78-4385-92A8-6A9BB853F1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C621DA3B-AD78-4385-92A8-6A9BB853F1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C621DA3B-AD78-4385-92A8-6A9BB853F1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF8EC2F-FD05-4CA0-A94C-26550A652CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF8EC2F-FD05-4CA0-A94C-26550A652CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF8EC2F-FD05-4CA0-A94C-26550A652CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF8EC2F-FD05-4CA0-A94C-26550A652CF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
