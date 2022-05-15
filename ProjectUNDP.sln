@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectUNDP", "ProjectUNDP\ProjectUNDP.csproj", "{63340AD5-BB54-4737-8422-02B33EE16DC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactUNDPModels", "ContactUNDPModels\ContactUNDPModels.csproj", "{C621DA3B-AD78-4385-92A8-6A9BB853F1C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{63340AD5-BB54-4737-8422-02B33EE16DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63340AD5-BB54-4737-8422-02B33EE16DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63340AD5-BB54-4737-8422-02B33EE16DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C621DA3B-AD78-4385-92A8-6A9BB853F1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C621DA3B-AD78-4385-92A8-6A9BB853F1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C621DA3B-AD78-4385-92A8-6A9BB853F1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C621DA3B-AD78-4385-92A8-6A9BB853F1C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
