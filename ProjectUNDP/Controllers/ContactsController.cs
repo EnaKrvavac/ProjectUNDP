@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ProjectUNDP.Controllers
 {
-    [Authorize]
     public class ContactsController : Controller
 
     {
@@ -98,7 +97,7 @@ namespace ProjectUNDP.Controllers
         }
 
         // GET: Contacts/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+       /* public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Contacts == null)
             {
@@ -195,6 +194,9 @@ namespace ProjectUNDP.Controllers
         private bool ContactExists(int id)
         {
             return (_context.Contacts?.Any(e => e.Id == id)).GetValueOrDefault();
-        }
+        }*/
     }
 }
+
+
+

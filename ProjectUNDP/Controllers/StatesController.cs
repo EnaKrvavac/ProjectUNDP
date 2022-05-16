@@ -7,9 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ContactUNDPModels;
 using MyContactManagerData;
+using Microsoft.AspNetCore.Authorization;
+using ProjectUNDP.Data;
 
 namespace ProjectUNDP.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class StatesController : Controller
     {
         private readonly MyContactManagerDBContext _context;
