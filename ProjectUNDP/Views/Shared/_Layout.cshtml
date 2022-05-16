@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - UNDP Bosnia and Herzegovina</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
     <link rel="stylesheet" href="~/css/datatables.min.css" asp-append-version="true" />
    
 
@@ -75,15 +76,19 @@
             </div>
         </nav>
     </header>
+    
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted" style="background-color:#c3e1f7;">
+   
+    <footer class="border-top footer text-muted">
       
        <div class="container">
+
+           <br >
+           <br >
             UNDP Bosnia and Herzegovina - <a asp-area="" asp-controller="Home" asp-action="Privacy">Contact Us</a>
         
        </div>
@@ -96,7 +101,7 @@
    
 
 
-    <!--<script src="~/lib/datatables/datatables.min.js"></script>-->
+    <script src="~/lib/datatables/datatables.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
